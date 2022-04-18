@@ -1,0 +1,131 @@
+#title {
+    background-color: #ff4c68;
+}
+.heading {
+    font-family: montserrat-black;
+    font-size: 3rem;
+    /* font-weight: 700; */
+    font-weight: bold;
+    line-height: 1.5;
+}
+.container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+li{
+    position: relative;
+    right: 180px;
+    font-size: 20px;
+    padding: 5%;
+}
+h1{
+    color: #fff;
+}
+h3{
+    font-family: "montserrat-bold";
+}
+p{
+    color: grey;
+}
+.img{
+    width: 35px;
+}
+.download-button{
+    margin: 3% 5%;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-top: 10px;
+    right: 30%;
+    
+   
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   z-index: 1;
+}
+.icons{
+    width: 50px;
+    margin: 8px;
+   
+}
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ff4c68;
+    
+}
+h2{
+    color: #fff;
+    font-family: montserrat-bold;
+    /* line-height: 1.5; */
+}
+em{
+    color: #fff;
+}
+.test{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.testimonial-image{
+    width: 25%;
+    border-radius: 100%;
+    margin: 30px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 20%;
+    margin: 20px 20px 20px 15px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: antiquewhite;
+}
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    
+}
+.pricing-colum{
+    padding: 3% 2%;
+}
+#footer{
+    /* background-color: grey; */
+    text-align: center;
+    padding: 7% 15%;
+}
+.fimg{
+    width: 30px;
+    margin: 10px 5px;
+}
+@media(max-width:991px){
+    li{
+        padding: 2%;
+    }
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin-left: 50px;
+    }
+}
